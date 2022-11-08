@@ -1,0 +1,83 @@
+body{
+	background: red;
+}
+#img-1{
+	width : 90px; 
+	height : 90px;
+	border-radius: 150px;
+}
+.img-fluid{
+    border: 1px solid red;
+    border-radius: 50%;
+}
+#a1{
+	margin-left: 50px;
+	font-size: 24px;
+
+}
+
+#h1-titulo{
+	text-align: center;
+	text-decoration: underline;
+	font-family: fantasy;
+	font-size: 100px;
+	color: red;
+}
+
+#centrar-todo{
+	text-align: center;
+	margin-left: 2%;
+}
+.Aside-class{
+	margin: auto;
+	margin-top: 5px;
+	padding: 0px 48px;
+	width: 58%;
+	height: 700px;
+	float: left;
+}
+.Aside-class--p{
+	font-size: 24px;
+	font-family: Arial;
+	color: white;
+}
+.Aside-class--img{
+	margin-top: 10vw;
+	width: 400px;
+	height: 400px;
+}
+.Aside-class--img:hover{
+	margin-top: 100px;
+	width: 400px;
+	height: 400px;
+	border-radius: 9.8vw;
+}
+
+
+
+.Article-class{
+	width: 20%;
+	height: 700px;
+	border: 0.6vw solid darkgray;
+	border-radius: 0.6vw;
+	background: lightgray;
+	float: left;
+}
+.Article-class--h2{
+	font-size: 2.5vw;
+	font-family: Brush Script MT;
+	margin: 2vw 0vw 0vw 1.2vw;
+}
+.Article-class--p{
+	font-size: 1.6vw;
+	font-family: Times New Roman;
+	padding: 0.6vw 1.3vw 0.6vw 1.3vw;
+}
+
+
+
+
+footer{
+	margin: 65% 0px 0px 0px;
+	color: red;
+}

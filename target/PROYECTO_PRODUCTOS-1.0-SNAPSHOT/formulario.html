@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Primera página web</title>
+        <link rel="shortcut icon" href="css/img/icono-web.png">
+	<link rel="stylesheet" type="text/css" href="css/estilos-formulario.css">
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-md navbar-fixed-top navbar-dark bg-dark main-nav">
+		<div class="container">
+			<ul class="nav navbar-nav">
+				<li><a class="nav-item active" href="index.html"><img id="div_img" class="img-fluid" src="css/img/regresar.png"></a></li>
+			</ul>
+
+			<ul class="nav navbar-nav text-nowrap flex-row mx-md-auto order-1 order-md-2">
+            	<li class="nav-item"><h1 id="div_h1">INICIAR SESIÓN</h1></li>
+        	</ul>
+				
+			
+		</div>
+	</nav>
+
+	<aside class="Aside-class">
+		<form class="Aside-class__form" action="ControladorServlet" method="post">
+
+			<center>
+				<img class="Aside-class__form--img" src="css/img/formulario-logo.png">
+			</center>
+
+				<h4 class="Aside-class__form--label">Usuario</h4>
+
+				<input id="inputs" class="form-control mr-sm-2" type="text" name="usuario" required="">
+
+				<h4 class="Aside-class__form--label">Contraseña</h4>
+				<input id="inputs" class="form-control mr-sm-2" type="password" name="contrasena" required="">
+
+			<center>
+			<input id="submit-1" type="submit" name="enviar" value="Iniciar sesión">
+			</center>
+
+		</form>
+	</aside>
+
+	<!-- Footer-->
+	<footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
+	    <div class="container text-center">
+	      <small>Copyright &copy; EMPRESA L.J.</small>
+	    </div>
+    </footer>
+</body>
+</html>
